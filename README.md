@@ -205,4 +205,267 @@
             color: #fff;
         }
 
-       
+        #checkBtn {
+            padding: 0.6rem 1.2rem;
+            background: #4cc9f0;
+            color: #000;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+
+        .result {
+            padding: 0.7rem;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            display: none;
+        }
+
+        .pass {
+            background: rgba(72, 187, 120, 0.15);
+            color: #48bb78;
+            border-left: 3px solid #48bb78;
+        }
+
+        .fail {
+            background: rgba(245, 101, 101, 0.15);
+            color: #f56565;
+            border-left: 3px solid #f56565;
+        }
+
+        /* Contact Section */
+        .contact-item {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .contact-label {
+            color: #a0a0a0;
+            font-size: 0.8rem;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-top: 0.8rem;
+        }
+
+        .project-card {
+            background: rgba(255,255,255,0.03);
+            border: 1px solid rgba(255,255,255,0.08);
+            border-radius: 6px;
+            padding: 0.8rem;
+        }
+
+        .project-card h4 {
+            color: #98fb98;
+            margin-bottom: 0.4rem;
+            font-size: 0.95rem;
+        }
+
+        .project-card p {
+            font-size: 0.8rem;
+            color: #d0d0d0;
+            margin-bottom: 0.5rem;
+        }
+
+        .tech-stack {
+            display: flex;
+            gap: 0.4rem;
+            flex-wrap: wrap;
+        }
+
+        .tech {
+            background: rgba(152, 251, 152, 0.12);
+            color: #98fb98;
+            font-size: 0.7rem;
+            padding: 0.2rem 0.5rem;
+            border-radius: 3px;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .grid-container, .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            body {
+                padding: 1.2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header with Profile Picture -->
+    <div class="header-wrapper">
+        <div>
+            <div class="course-label">BTLED Information Communication Technology• 2ND YEAR</div>
+            <h1>Thanks for visiting!</h1>
+            <p class="tagline">"“ICT is the bridge between ideas and innovation."</p>
+
+            <div class="btn-group">
+                <button class="btn btn-white">✦ Say Hello</button>
+                <button class="btn btn-outline">Open to Internships • 2026</button>
+            </div>
+        </div>
+        <!-- ✅ PROFILE PICTURE HERE -->
+        <img src="ging.jpeg" alt="" class="profile-image"
+        
+    </div>
+
+    <p class="intro-text">
+        ✦ Good Day! My name is Meregine Guatno Miguel,welling to learn how to make website. Welcome to my final project portfolio!
+    </p>
+
+    <div class="tags">
+        <span class="tag">FRONT-END DEV</span>
+        <span class="tag">UI/UX ENTHUSIAST</span>
+        <span class="tag">PROBLEM SOLVER</span>
+    </div>
+
+
+    <!-- Skills + About Me -->
+    <div class="grid-container">
+        <div class="card">
+            <h3>Skills</h3>
+            <ul>
+                <li>HTML5 & Semantic Markup</li>
+                <li>CSS3 • Flexbox & Grid</li>
+                <li>JavaScript Fundamentals</li>
+                <li>Responsive Web Design</li>
+                <li>Basic Python Programming</li>
+                <li>Version Control with Git</li>
+                <li>Command Line Basics</li>
+                <li>MySQL & Basic SQL</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>About Me</h3>
+            <p>
+               Hi I am Meregine Miguel, ICT student in Colegio De La Ciudad de Zamboanga. I chose this course because I have a deep interest in technology and how it helps make work and daily life easier. Through our lessons and hands-on activities, I am learning useful skills like coding, web design, and basic computer troubleshooting. I really enjoy my learning journey here, and I am working hard to master everything I need to become a skilled and reliable IT professional someday. <br><br>
+                I am focused on mastering every lesson and skill we learn, from coding and web design to system troubleshooting. I give my best in every activity and project, determined to grow, improve, and turn my passion for technology into a successful career someday.
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Hobbies + Education -->
+    <div class="grid-container">
+        <div class="card">
+            <h3>Hobbies</h3>
+            <ul>
+                <li>cooking Filipino food</li>
+                <li>slightly singing</li>
+                <li>Open-source contributions</li>
+                <li>playing online game</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h3>Education</h3>
+            <div class="edu-item">
+                <div class="edu-year">2023 – PRESENT</div>
+                <div class="edu-course">BTLED Information Communition Technology</div>
+                <div class="edu-school">Colegio De la ciudad de Zamboanga<br>2nd Year • Expected Graduation: 2O28</div>
+            </div>
+            <div class="edu-item">
+                <div class="edu-year">GRADUATED 2020</div>
+                <div class="edu-course">Senior High School -TVL truck, Agri-Crop Production</div>
+                <div class="edu-school">Sibuco Senior high<br>With honor• Best in Immersion</div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Contact + Grade Checker -->
+    <div class="grid-container">
+        <div class="card">
+            <h3>Contact</h3>
+            <div class="contact-item">
+                <div class="contact-label">EMAIL</div>
+                <div>miguelginequino@gmail.com</div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">LOCATION</div>
+                <div>Zamboanga City, PH</div>
+            </div>
+            <div class="contact-item">
+                <div class="contact-label">Contact number</div>
+                <div>09971978479</div>
+            </div>
+        </div>
+
+        <div class="card grade-checker">
+            <h3>Grade Checker</h3>
+            <p>Enter any grade (0–100) to see your standing.</p>
+            <div class="input-group">
+                <input type="number" id="gradeInput" value="78" min="0" max="100">
+                <button id="checkBtn">Check</button>
+            </div>
+            <div id="resultBox" class="result">
+                <span id="resultText"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Projects Section -->
+    <div class="card">
+        <h3>Projects</h3>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h4>Barangay Info System</h4>
+                <p> web-based application designed to organize and manage all important records and transactions of the local barangay office. It helps officials easily store, update, and retrieve resident data, issued certificates, and incident reports without using manual paper files. This system makes community services faster, more accurate, and efficient for both barangay staff and residents..</p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">JAVASCRIPT</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h4>Budget Tracker</h4>
+                <p>Budget Tracker is a simple tool to record your income and daily expenses. It automatically calculates your remaining balance to show how much money you have left. This helps you track spending and manage your budget easily and wisely..</p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                    <span class="tech">JS</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <h4>Portfolio v1</h4>
+                <p>My ICT 106 final project — the foundation this site is built on.</p>
+                <div class="tech-stack">
+                    <span class="tech">HTML</span>
+                    <span class="tech">CSS</span>
+                </div>
+            </div>
+            <div class="project-card">
+                Create a basic attendance checker using forms and tables.
+                <div class="tech-stack">
+                     <span class="tech">HTML</span>
+                     <span class="tech">CSS</span>
+                 </div>
+             </div>
+             <div class="project-card">
+                 <h4>Python Quiz App</h4>
+                 <p>GUI quiz application written in Python for an ICT elective course.</p>
+                 <div class="tech-stack">
+                     <span class="tech">PYTHON</span>
+                 </div>
+             </div>
+         </div>
+     </div>
+     <!-- JavaScript for Grade Checker -->
+     <script>
+         const gradeInput = document.getElementById('gradeInput');
+         const checkBtn = document.getElementById('checkBtn');
+         const resultBox = document.getElementById('resultBox');
+         const resultText = document.getElementById('resultText');
+         checkBtn.addEventListener('click', () => {
+             const grade = parseInt(gradeInput.value);
+             resultBox.style.display = '  
+
