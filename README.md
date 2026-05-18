@@ -1,28 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miguel — Portfolio</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-        }
-
-        body {
-            background-color: #16213e;
-            color: #ffffff;
-            min-height: 100vh;
-            padding: 2rem 4rem;
-            line-height: 1.7;
-            background-image: radial-gradient(circle at top left, #0f3460 0%, #16213e 70%);
-        }
-
-        /* Header & Profile Picture */
-        .header-wrapper {
             display: flex;
             justify-content: space-between;
             align-items: flex-start;
